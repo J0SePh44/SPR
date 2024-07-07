@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header { /* cabecero */
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los lados opuestos */
+    height: 150px;
+    background-color: #003153;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #adadad;
+}
+
+.logo img { /* tamaño del logo */
+    height: 150px;
+}
+
+.usuario-perfil { /* posicion de la imagen y el texto de la derecha */
+    display: flex;
+    align-items: center;
+}
+
+.usuario-perfil h3 { /* h3 (usuario) */
+    margin: 0;
+    margin-right: 10px;
+    color: #baa01e;
+    font-family: roboto;
+}
+
+.perfil {
+    height: 100px; /* tamaño de la imagen de la derecha */
+    border-radius: 10px;
+}
+.que-desea-buscar { /* pocicion del que desea buscar */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.que-desea-buscar h2 { /* tamaño color y letra de que desea buscar */
+    margin-top: 0;
+    font-size: 25px;
+    color: #003153;
+    font-family: roboto;
+}
+
+.que-desea-buscar img.barra{ /* tamaño color y letra de la barra de busqueda */
+    display: block; /* Asegura que la imagen ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    margin-top: 20px; /* Ajusta imagen */
+    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+}

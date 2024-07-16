@@ -13,11 +13,11 @@ a{ /* hipervinculos */
 header{  /* cabecero*/
     display: flex; /* acomoda de forma horizontal los hipervinculos */
     height: 150px; /* altura del cabecero */
-    background-color: #003153; /* color del cabecero */
+    background-color: white; /* color del cabecero */
     justify-content:space-between; /*ubica SPR en una squina y los hipervinculos en la otra esquina*/
     align-items: center; /* centra los hipervinculos */
     padding: 10px; /* separar los hipervinculos del borde */
-    border-bottom: 2px solid #adadad; /* (linea) grosor de la linea*/
+    border-bottom: 1px solid #adadad; /* (linea) grosor de la linea*/
 }
 
 
@@ -32,24 +32,22 @@ nav a{
     font-size: 23px; /* tamaño hipervinculos */
 }
 
-nav a:hover{ /* cursor pase por los hipervinculos cambia de color*/
-    color: white;
+nav a:hover{ /* cursor pase por los hipervinculos cambia de color solo la letra y aparezca el boton*/
+    padding: 10px 10px;
+    background-color: #003153;  /*color del boton*/
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white; /*color de la letra cuando aparezca el boton*/
+    font-size: 23px;
+    transition: background-color 0.3s;
+    position: right;
 }
-
-.quienes_somos{ /* diseño de: quienes somos*/
-   text-align: center;
-    margin-left: 0px;
-   margin-top: 100px;
-   color: #003153;
-   font-family: roboto;
-}
-.quienes_somos p {
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+ 
 .nuestros_servicios{ /* diseño de la palabra nuestros servcios*/
     text-align: center;
-    color: #baa01e;
-    margin-top: 200px;
+    color: #003153;
+    margin-top: 30px;
     font-family: roboto;
 }
 
@@ -57,7 +55,7 @@ nav a:hover{ /* cursor pase por los hipervinculos cambia de color*/
 div.cerrajeria1{
     margin-left: 110px; /* donde estara posicionado horizontalmente*/
     margin-top: 60px; /* donde estara posicionado verticalmente*/
-    color: #baa01e; /* color letra*/
+    color: #003153; /* color letra*/
     font-family: roboto; /* tipografia*/
 }
 
@@ -67,14 +65,14 @@ div.cerrajeria1{
     margin-top: 20px; /* donde estara posicionado verticalmente*/
     border-radius: 10px; /* borde circular a la imagen*/
 }
-div.drogueria1{
+div.limpieza1{
     margin-left: 440px;
     margin-top: -40px;
-    color: #baa01e;
+    color: #003153;
     font-family: roboto;
 }
 
-.drogueria{
+.limpieza{
     margin-left: 80px;
     height: 150px;
     margin-top: 20px;
@@ -83,7 +81,7 @@ div.drogueria1{
 div.plomeria1{
     margin-left: 800px;
     margin-top: -40px;
-    color: #baa01e;
+    color: #003153;
     font-family: roboto;
 }
 .plomeria{
@@ -95,7 +93,7 @@ div.plomeria1{
 div.veterinaria1{
     margin-left: 1100px;
     margin-top: -40px;
-    color: #baa01e;
+    color: #003153;
     font-family: roboto;
 }
 .veterinaria{
@@ -111,7 +109,7 @@ div.veterinaria1{
     height: 370px;
     margin-left: 0px;
     margin-top: -350px;
-    background-color: #003153;
+    background-color: #adadad;
 }
 .calificar{ /* diseño de: como sera la calificacion*/
     text-align: center; 

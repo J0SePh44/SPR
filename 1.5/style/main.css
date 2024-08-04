@@ -1,0 +1,130 @@
+body{
+    font-family: sans-serif ; /* cambio de letra */
+    margin: 0; /* quito la margen */
+   background-color: white; /* color pagina*/
+}
+
+a{ /* hipervinculos */
+    text-decoration: none; /* quita el subrayado de los hipervinculos */
+    color: #baa01e; /* color de la lestras de los hipervinculos */
+    font-family: roboto; /* tipografia*/
+}
+
+header{  /* cabecero*/
+    display: flex; /* acomoda de forma horizontal los hipervinculos */
+    height: 150px; /* altura del cabecero */
+    background-color: #003153; /* color del cabecero */
+    justify-content:space-between; /*ubica SPR en una squina y los hipervinculos en la otra esquina*/
+    align-items: center; /* centra los hipervinculos */
+    padding: 10px; /* separar los hipervinculos del borde */
+    border-bottom: 2px solid #adadad; /* (linea) grosor de la linea*/
+}
+
+
+.logo img{ /* logo */
+    height: 150px; /* tamaño del logo de la empresa */
+    margin-right: 10px; /* separa el logo de la imagen */
+}
+
+nav a{
+    font-weight:600; /* negrita a los hipervinculos */
+    padding-right: 23px; /* separar los hipervinculos */
+    font-size: 23px; /* tamaño hipervinculos */
+}
+
+nav a:hover{ /* cursor pase por los hipervinculos cambia de color*/
+    color: white;
+}
+
+.quienes_somos{ /* diseño de: quienes somos*/
+   text-align: center;
+    margin-left: 0px;
+   margin-top: 100px;
+   color: #003153;
+   font-family: roboto;
+}
+.quienes_somos p {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nuestros_servicios{ /* diseño de la palabra nuestros servcios*/
+    text-align: center;
+    color: #baa01e;
+    margin-top: 200px;
+    font-family: roboto;
+}
+
+/* diseño de las imagenes y palabras de encima*/
+div.cerrajeria1{
+    margin-left: 110px; /* donde estara posicionado horizontalmente*/
+    margin-top: 60px; /* donde estara posicionado verticalmente*/
+    color: #baa01e; /* color letra*/
+    font-family: roboto; /* tipografia*/
+}
+
+.cerrajeria{
+    margin-left: 50px; /* donde estara posicionado horizontalmente*/
+    height: 150px; /* tamaño de la imagen*/
+    margin-top: 20px; /* donde estara posicionado verticalmente*/
+    border-radius: 10px; /* borde circular a la imagen*/
+}
+div.drogueria1{
+    margin-left: 440px;
+    margin-top: -40px;
+    color: #baa01e;
+    font-family: roboto;
+}
+
+.drogueria{
+    margin-left: 80px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+div.plomeria1{
+    margin-left: 800px;
+    margin-top: -40px;
+    color: #baa01e;
+    font-family: roboto;
+}
+.plomeria{
+    margin-left: 100px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+div.veterinaria1{
+    margin-left: 1100px;
+    margin-top: -40px;
+    color: #baa01e;
+    font-family: roboto;
+}
+.veterinaria{
+    margin-left: 100px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* diseño de los cuadrados que van encima de las imagenes*/
+.cuadrado1{
+    width: 1349px;
+    height: 370px;
+    margin-left: 0px;
+    margin-top: -350px;
+    background-color: #003153;
+}
+.calificar{ /* diseño de: como sera la calificacion*/
+    text-align: center; 
+    color: #003153;
+    font-family: roboto;
+}
+.calificar p {
+    font-family: Tahoma; 
+   }
+
+.estrellas{
+    margin-left: 480px;
+    height: 250px;
+    margin-top: 20px;
+    
+}
